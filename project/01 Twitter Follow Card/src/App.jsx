@@ -1,6 +1,6 @@
 import React from "react"
-import "./App.css"
-import { TwitterFollowCard } from "./TwitterFollowCard.jsx"
+import './App.css'
+import { TwitterFollowCard } from './TwitterFollowCard.jsx'
 
 export function App() {
   const users = [
