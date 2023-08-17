@@ -2,16 +2,52 @@ main{
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  width: 100%;
 }
 
 .page{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
 }
 
 form{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.movies{
+  width: 100%;
+}
+
+.moviesList{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.movie{
+  text-align: center;
+}
+
+.movie h3, p{
+  margin: 0;
+  padding: 0;
+}
+
+.movie img{
+  border-radius: 4px;
+}
+
+.form{
+  width: 100%;
 }
